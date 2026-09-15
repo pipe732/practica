@@ -1182,7 +1182,8 @@
                     </div>
                   </div>
                   <div class="card-body p-0">
-                    <div class="table-responsive">
+                    <div class="table-responsive"> id table
+                      
                       <table class="table align-middle mb-0 w-100">
                         <thead>
                           <tr>
@@ -1365,6 +1366,13 @@
      module (since 4.1) — no page script needed. Only the no-flash snippet
      in <head> stays inline, because it must run before first paint. -->
     <!--end::Color Mode Toggle-->
+    <script src="{% static 'js/jquery-3.7.1.min.js' %}"></script>
+
+    <script src="{% static 'lib/datatables/datatables.min.js' %}"></script>
+
+    <script src="{% static 'js/crud.js' %}"></script>
+   <script src="{% static 'js/datatable.js' %}"></script>  
+   <script  type="text/javascript" src="{% static 'js/datatable.js' %}"></script>
 
     <!--end::Script-->
   </body>
